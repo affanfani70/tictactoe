@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h3>MyTicTacToe.com</h3>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="heading"
+            style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 40px; margin: 20px 0; background-color: rgb(73, 69, 69); color: white;">
+            Welcome To Tic Tac Toe game</h2>
+        <div class="gameContainer">
+            <div class="gameBox">
+                <!-- <div class="lin"></div> -->
+                <div class="box bt-0 bl-0"><span class="boxtxt"></span></div>
+                <div class="box bt-0"><span class="boxtxt"></span></div>
+                <div class="box bt-0 br-0"><span class="boxtxt"></span></div>
+                <div class="box bl-0"><span class="boxtxt"></span></div>
+                <div class="box"><span class="boxtxt"></span></div>
+                <div class="box br-0"><span class="boxtxt"></span></div>
+                <div class="box bl-0 bb-0"><span class="boxtxt"></span></div>
+                <div class="box bb-0"><span class="boxtxt"></span></div>
+                <div class="box br-0 bb-0"><span class="boxtxt"></span></div>
+            </div>
+            <div class="gameinfo">
+                <div class="img">
+                    <img src="excited.gif" alt="">
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span class="info" style="font-size: 40px; text-align: center;">Turn for X</span>
+                    <button id="btn" class="reset">Reset</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
